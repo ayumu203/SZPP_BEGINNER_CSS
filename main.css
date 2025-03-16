@@ -1,0 +1,133 @@
+body{
+    font-size: 30px;
+}
+#box1{
+    /* 高さを20%,背景色を赤に設定 */
+    height:20vh;
+    background-color: red;
+    
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は白 */
+    color:white;
+}
+
+#box2{
+    /* 幅を50%,背景色をゴールドに設定 */
+    width:50%;
+    background-color: gold;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は薄い灰 */
+    color: #fff;
+}
+
+#box3{
+    /* 高さを20%,背景色を青に設定 */
+    height:20vh;
+    background-color: blue;
+
+    /* 上の要素との間隔を5%空ける */
+    margin-top: 5%;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は薄い灰 */
+    color: #ddd;
+}
+
+#box4{
+    /* 幅を50%,背景色を青に設定 */
+    width: 50%;
+    background-color: lightseagreen;
+
+    /* 上の要素との間隔を5%空ける */
+    margin: 5% auto;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は薄い灰 */
+    color: #eee;
+}
+
+#box5{
+    /* 高さを20%,背景色を青に設定 */
+    height: 20vh;
+    background-color: green;
+
+    /* 上の要素との間隔を5%空ける */
+    margin: 5% auto;
+
+    /* 文字列を右下に寄せる */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* 文字の色は薄い灰 */
+    color: #eee;
+}
+
+#box6{
+    /* 幅を30%,高さを30%,背景色を青に設定 */
+    width: 30%;
+    height: 30vh;
+    background-color: purple;
+    /* 角を取る */
+    border-radius: 25%;
+
+    /* 上の要素との間隔を5%空ける */
+    margin: 5% auto;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は薄い灰 */
+    color: #eee;
+}
+
+#box7{
+    /* 幅を100%,背景色を青に設定 */
+    width: 100%;
+    background-color: orangered;
+
+    /* 上の要素との間隔を5%空ける */
+    margin: 5% auto;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 文字の色は薄い灰 */
+    color: #eee;
+}
+
+.text7{
+    margin-right: 5%;
+}
+
+#box8{
+    /* 幅を100%,背景色を青に設定 */
+    width: 100%;
+    background-color: orange;
+
+    /* 上の要素との間隔を5%空ける */
+    margin: 5% auto;
+
+    /* 文字列を中央に寄せる */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* 文字の色は薄い灰 */
+    color: #eee;
+}
+
